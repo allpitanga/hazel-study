@@ -2,6 +2,9 @@
 .vs/
 bin/
 bin-int/
+vcpkg/
+build/
 
-# Files
+#cma Files
 *.user
+CMakeUserPresets.json
