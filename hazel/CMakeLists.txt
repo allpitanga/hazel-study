@@ -7,6 +7,11 @@ file(GLOB_RECURSE HAZEL_SOURCES
 
 add_library(Hazel SHARED ${HAZEL_SOURCES})
 
+target_include_directories(Hazel
+    PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/src
+)
+
 find_package(spdlog CONFIG REQUIRED)
 
 target_link_libraries(Hazel PRIVATE
