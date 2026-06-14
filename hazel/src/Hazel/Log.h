@@ -5,8 +5,6 @@
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"
 
-#include <memory>
-
 // creating a Log class to wrap the stdlog lib
 // makes it easier to replace the stdlog lib if needed | enables the creation of our own logging API for the client
 
